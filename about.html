@@ -1,7 +1,21 @@
 <html> 
-<head> 
-	<title> 
-	</title> 
+<head>
+	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <!--<link rel="shortcut icon" href="assets/images/BUIE_logo.jpg" type="image/x-icon">-->
+
+        <!-- ===============UNICONS================ -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css"> 
+	<title> About Us</title> 
 	<style> 
 	.boxes{ 
 	width:50%; 
@@ -16,7 +30,44 @@ margin:auto;
 	} 
 </style> 
 </head> 
-<body style="background-color: blueviolet;">
+<body>
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">
+				<i class="uil uil-graduation-cap nav__logo-icon"></i> BUIE Guide
+			</a>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="index.html" class="nav__link active-link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="about.html" class="nav__link">About Us</a>
+					</li>
+					<li class="nav__item">
+						<a href="index.html" class="nav__link">Careers</a>
+					</li>
+					<li class="nav__item">
+						<a href="index.html" class="nav__link">Contact Us</a>
+					</li>
+				</ul>
+
+				<div class="nav__close" id="nav-close">
+					<i class="ri-close-line"></i>
+				</div>
+			</div>
+
+			<div class="nav__btns">
+				<!-- Theme change button -->
+				<i class="ri-moon-line change-theme" id="theme-button"></i>
+
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="ri-menu-line"></i>
+				</div>
+			</div>
+		</nav>
+	</header>
     <center><h1>Meet people behind this idea!</h1><br>
 <div id="mainDiv"> 
     <div id="divOne" class="boxes"> 
@@ -38,5 +89,10 @@ Feel free to communicate!<br>
 <br><br>
 <a href="index.html">Go back</a></h3>
 </center> 
+<!--=============== SCROLL REVEAL ===============-->
+<script src="assets/js/scrollreveal.min.js"></script>
+        
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
 </body> 
 <html> 
